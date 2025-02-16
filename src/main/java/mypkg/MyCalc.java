@@ -11,10 +11,10 @@ public class MyCalc {
 		return a*b;
 	}
 	public void show() {
-		System.out.println(" Hello Jenkins")
+		System.out.println(" Hello Jenkins");
 	}
 	public void greeting() {
-		System.out.println(" Hello Jenkins")
+		System.out.println(" Hello Jenkins");
 	}
 	public static void main(String[] args) {
 		MyCalc calc = new MyCalc();
