@@ -29,6 +29,13 @@ pipeline
 				bat 'mvn install'
 			}
 		  }
+		  stage('build success')
+		  {
+			steps
+			{
+				echo 'Build Success'
+			}
+		  }
 		  stage('finish stage')
 		  {
 			steps
